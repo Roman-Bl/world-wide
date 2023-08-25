@@ -2,8 +2,10 @@ import styles from "./CountryList.module.css";
 import CountryItem from "./CountryItem";
 import Spinner from "./Spinner";
 import Message from "./Message";
+import { useCities } from "../context/CitiesContext";
 
-function CityList({ cities, isLoading }) {
+function CityList() {
+  const { cities, isLoading } = useCities();
   console.log(cities, isLoading);
   if (isLoading) return <Spinner />;
   if (cities.length === 0)
@@ -12,14 +14,14 @@ function CityList({ cities, isLoading }) {
     );
   const countriesUniques = cities.reduce((acc, cur) => {
     if (!acc.map((el) => el.country).includes(cur.country))
-      return [...acc, { country: cur.country, emoji: cur.emoji }];
+      return [...acc, { country: cur.country, emoji: cur.emoji, id: cur.id }];
     else return acc;
   }, []);
   console.log(countriesUniques);
   return (
     <ul className={styles.countryList}>
       {countriesUniques.map((country) => (
-        <CountryItem country={country} />
+        <CountryItem country={country} key={country.id} />
       ))}
     </ul>
   );
