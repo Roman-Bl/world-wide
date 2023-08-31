@@ -37,28 +37,28 @@
       "id": 98443197
     },
     {
-      "cityName": "Barcelona",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "cityName": "Grabow",
+      "country": "Poland",
+      "date": "2023-08-31T11:30:25.127Z",
+      "emoji": "🇵🇱",
+      "notes": "test2",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "52.15371445951162",
+        "lng": "19.061279296875004"
       },
-      "id": 123412
+      "id": 98443199
     },
     {
-      "cityName": "Stutgard",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Torrecilla de la Jara",
+      "country": "Spain",
+      "date": "2023-08-31T11:42:42.454Z",
+      "emoji": "🇪🇸",
+      "notes": "asd",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "39.65645604812829",
+        "lng": "-4.822998046875001"
       },
-      "id": 9725324
+      "id": 98443200
     }
   ]
 }
