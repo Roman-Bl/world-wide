@@ -11,7 +11,6 @@ function reducer(state, action) {
     case "loading":
       return { ...state, isLoading: true };
     case "cities/loaded":
-      console.log("test ", action.payload);
       return { ...state, cities: action.payload, isLoading: false };
     case "city/loaded":
       return { ...state, curCity: action.payload, isLoading: false };
@@ -52,7 +51,6 @@ function CitiesProvider({ children }) {
       try {
         const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
-        console.log(data);
         dispatch({ type: "cities/loaded", payload: data });
       } catch (e) {
         dispatch({
