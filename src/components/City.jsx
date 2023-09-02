@@ -23,7 +23,7 @@ function City() {
     function () {
       getCity(id);
     },
-    [id]
+    [id, getCity]
   );
 
   // // TEMP DATA
@@ -37,8 +37,6 @@ function City() {
   if (isLoading) return <Spinner />;
 
   const { cityName, emoji, date, notes } = curCity;
-
-  console.log(curCity);
 
   return (
     <div className={styles.city}>

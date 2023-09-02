@@ -37,18 +37,6 @@
       "id": 98443197
     },
     {
-      "cityName": "Grabow",
-      "country": "Poland",
-      "date": "2023-08-31T11:30:25.127Z",
-      "emoji": "🇵🇱",
-      "notes": "test2",
-      "position": {
-        "lat": "52.15371445951162",
-        "lng": "19.061279296875004"
-      },
-      "id": 98443199
-    },
-    {
       "cityName": "Vinnytsya",
       "country": "Ukraine",
       "date": "2023-08-31T14:45:55.694Z",
@@ -59,6 +47,30 @@
         "lng": "28.49990844726563"
       },
       "id": 98443201
+    },
+    {
+      "cityName": "Alcaniz",
+      "country": "Spain",
+      "date": "2023-09-02T11:30:29.393Z",
+      "emoji": "🇪🇸",
+      "notes": "asd",
+      "position": {
+        "lat": "41.004754301191014",
+        "lng": "-0.15481060598406596"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Puertomingalvo",
+      "country": "Spain",
+      "date": "2023-09-02T11:31:04.057Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "40.27115934599526",
+        "lng": "-0.40726767360886656"
+      },
+      "id": 98443203
     }
   ]
 }

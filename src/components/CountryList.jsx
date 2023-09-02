@@ -4,9 +4,8 @@ import Spinner from "./Spinner";
 import Message from "./Message";
 import { useCities } from "../context/CitiesContext";
 
-function CityList() {
+function CountryList() {
   const { cities, isLoading } = useCities();
-  console.log(cities, isLoading);
   if (isLoading) return <Spinner />;
   if (cities.length === 0)
     return (
@@ -17,7 +16,7 @@ function CityList() {
       return [...acc, { country: cur.country, emoji: cur.emoji, id: cur.id }];
     else return acc;
   }, []);
-  console.log(countriesUniques);
+  // console.log(countriesUniques);
   return (
     <ul className={styles.countryList}>
       {countriesUniques.map((country) => (
@@ -27,4 +26,4 @@ function CityList() {
   );
 }
 
-export default CityList;
+export default CountryList;

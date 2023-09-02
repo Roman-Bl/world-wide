@@ -28,7 +28,7 @@ function Map() {
   useEffect(
     function () {
       if (mapLat && mapLng) setMapPosition([mapLat, mapLng]);
-      console.log(`in effect`);
+      // console.log(`in effect`);
     },
     [mapLat, mapLng]
   );

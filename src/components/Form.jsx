@@ -52,7 +52,7 @@ function Form() {
             `${BASE_URL}?latitude=${lat}&longitude=${lng}`
           );
           const res = await data.json();
-          console.log(res);
+          // console.log(res);
           if (!res.countryCode)
             throw new Error(
               `It seems like no city is here, please click somewhere else 😉`
@@ -83,7 +83,7 @@ function Form() {
       notes,
       position: { lat, lng },
     };
-    console.log(newCity);
+    // console.log(newCity);
     await createCity(newCity);
     navigator("/app/cities");
   }
