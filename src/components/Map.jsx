@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "./Map.module.css";
 import {
   MapContainer,
@@ -40,7 +40,7 @@ function Map() {
     [positionGeo]
   );
 
-  console.log(`render`);
+  // console.log(`render`);
   return (
     <div className={styles.mapContainer}>
       {!positionGeo && (
