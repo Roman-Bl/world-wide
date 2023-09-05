@@ -17,3 +17,5 @@
    - json-server run on glitch.com while app is deployed on netlify.com
 4. 3rd-party library:
    - leaflet react
+5. Build tools:
+   - Vite
