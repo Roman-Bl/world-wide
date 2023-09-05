@@ -12,3 +12,8 @@
    - usign Profiler to find wasted renders. Optimization via memo and useCallback
 2. CSS:
    - styling using CSS Modules
+3. REST API:
+   - Rest API with json-server
+   - json-server run on glitch.com while app is deployed on netlify.com
+4. 3rd-party library:
+   - leaflet react
