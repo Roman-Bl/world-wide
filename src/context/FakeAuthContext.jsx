@@ -25,7 +25,7 @@ function reducer(state, action) {
       return {
         ...state,
         errorMessage:
-          "Wrong credentials! It`s a test project, so plaese use the default one 🙂",
+          "Wrong credentials! It`s a test project, so please use the default one 🙂",
       };
     default:
       throw new Error("Unknown action type");
