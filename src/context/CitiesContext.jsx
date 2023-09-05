@@ -3,7 +3,8 @@ import { useCallback } from "react";
 import { useContext } from "react";
 import { createContext } from "react";
 
-const BASE_URL = "http://localhost:8000";
+// const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://encouraging-nine-lemongrass.glitch.me";
 
 const CitiesContext = createContext();
 

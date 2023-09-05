@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Logo from "../components/Logo";
 import PageNav from "../components/PageNav";
 import { useAuth } from "../context/FakeAuthContext";
 import styles from "./Login.module.css";
@@ -9,8 +8,8 @@ import Button from "../components/Button";
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
   const [email, setEmail] = useState("jack@example.com");
-  const [password, setPassword] = useState("qwerty");
-  const { login, isAuthenticated } = useAuth();
+  const [password, setPassword] = useState("Qwerty321");
+  const { login, isAuthenticated, errorMessage } = useAuth();
   const navigator = useNavigate();
 
   useEffect(
@@ -52,6 +51,7 @@ export default function Login() {
         <div>
           <Button type="primary">Login</Button>
         </div>
+        {errorMessage && <p className={styles.error}>{errorMessage}</p>}
       </form>
     </main>
   );

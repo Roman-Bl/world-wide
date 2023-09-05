@@ -24,3 +24,7 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+
+.error {
+  color: rgb(255, 113, 113);
+}

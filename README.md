@@ -1,8 +1,14 @@
-# React + Vite
+# Created via React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Learned duting this project:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. React:
+   - useReducer, useNavigate
+   - Context API
+   - Routing in SPA using React Router
+   - Dynamic routing and storing state using URL Params and Query String
+   - Authentication and protecting the app from unauthorized access
+   - optimization via component splitting and lazy loading
+   - usign Profiler to find wasted renders. Optimization via memo and useCallback
+2. CSS:
+   - styling using CSS Modules
